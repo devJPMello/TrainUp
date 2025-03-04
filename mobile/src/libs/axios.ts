@@ -7,8 +7,8 @@ type ApiInstanceProps = AxiosInstance & {
 
 const api = axios.create({
   baseURL: 'http://192.168.10.103:3333',
-  timeout: 10000, // 🔥 Define um timeout de 10 segundos (pode aumentar se necessário)
-  withCredentials: true ,// Se sua API usa autenticação por cookies
+  timeout: 10000,
+  withCredentials: true,
 
 }) as ApiInstanceProps
 

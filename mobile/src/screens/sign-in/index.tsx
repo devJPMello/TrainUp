@@ -36,7 +36,7 @@ export function SignIn() {
       await login(token);
 
       const { data: user } = await api.get("me", {
-        headers: { Authorization: `Bearer ${token}` }, // Caso necessário
+        headers: { Authorization: `Bearer ${token}` },
       });
 
       await setUser(user);
