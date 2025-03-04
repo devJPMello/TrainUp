@@ -1,4 +1,4 @@
-# Workout
+# TrainUp
 
 ## Screenshots
 ### Login
@@ -48,7 +48,7 @@ npx drizzle-kit migrate
 npm run seed
 npm run server
 ```
-Endpoints disponíveis [Swagger API Docs](http://localhost:3333/docs)
+
 
 ## Web
 ```bash
@@ -57,7 +57,7 @@ cp .env.local.example .env.local
 npm i
 npm run web
 ```
-Acessar a [Aplicação Web](http://localhost:5173/login)
+
 
 ## Mobile
 ```bash
